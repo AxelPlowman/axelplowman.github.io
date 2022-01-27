@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(41, 32, 32);
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.block {
+  text-align: center;
+  margin: 0;
+  padding: 40px 40px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+p,
+a {
+  font-size: 16px;
+}
+.link-notice {
+  text-align: center;
+}
+
+a:link,
+a:visited {
+  color: Aquamarine;
+  font-size: 16px;
+  text-decoration: none;
+}
+a:hover {
+  color: antiquewhite;
+}
+.video-wrapper {
+  text-align: center;
+}
+video {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  box-shadow: 0 0 40px black;
+  border-radius: 50px;
+}
+img {
+  max-height: 400px;
+}
+.copyright {
+  text-align: right;
+  margin: 0;
+  padding: 10px;
+}
